@@ -1,6 +1,9 @@
 ---
 title: "Reproducible Research Course Project 1"
-output: html_document
+output:
+  md_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ##Instructions
@@ -15,7 +18,7 @@ output: html_document
 8. Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 9. All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
 
-```{r}
+```{r message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
 ##Preparing the Workspace
